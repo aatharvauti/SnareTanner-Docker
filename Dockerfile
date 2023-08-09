@@ -5,7 +5,7 @@ LABEL maintainer="Atharva Auti"
 # Set environment variables to prevent interactive prompts
 ENV DEBIAN_FRONTEND=noninteractive
 
-# Nameserver
+# Nameserver (if you run into issues)
 # RUN echo "nameserver 8.8.8.8" >> /etc/resolv.conf
 # RUN cat /etc/resolv.conf
 # RUN nslookup google.com
