@@ -13,7 +13,7 @@ services:
       - "8090:8090"
     volumes:
       - "/var/run/docker.sock:/var/run/docker.sock:rw"
-      - "opt/snare/pages/sakec.ac.in:opt/snare/pages/sakec.ac.in:rw"
+      - "/opt/snare/pages/sakec.ac.in:/opt/snare/pages/sakec.ac.in:rw"
     entrypoint: ["./run.sh"]
     stdin_open: true
     tty: true
