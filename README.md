@@ -33,7 +33,7 @@ sudo docker attach <CONTAINER ID>
 ```
 
 To exit out of container without killing the container,
-Ctrl Q + Ctrl P
+Ctrl P + Ctrl Q
 
 
 
